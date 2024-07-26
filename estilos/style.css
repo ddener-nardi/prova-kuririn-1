@@ -279,5 +279,65 @@ header > nav {
 #img-3, #img-4{
     display: none;
 }
-
+footer{
+    background-color: var(--cor002);
+    color: white;
+}
+.conteudo-rodape{
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+.logo-rodape{
+    margin: 87px 0 62px 0;
+    display: flex;
+    justify-content: center;
+}
+.logo-rodape img{
+    width: 80%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 35px;
+}
+.footer-nav a{
+    color: white;
+    padding-bottom: 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.footer-nav a:hover{
+    text-decoration: underline;
+}
+.footer-nav a > strong{
+    font-size: 18px;
+}
+.enderecos{
+    margin-bottom: 40px;
+}
+.enderecos h3{
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.endereco1{
+    padding-bottom: 50px;
+    font-size: 16px;
+}
+.endereco2{
+    font-size: 16px;
+}
+.footer-redes-sociais{
+    display: flex;
+    justify-content:space-around;
+}
+.fim-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
