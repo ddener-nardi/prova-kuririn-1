@@ -1,0 +1,7 @@
+<svg width="17" height="20" viewBox="0 0 17 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="path-1-inside-1_2019_6039" fill="white">
+<path d="M0 1C0 0.447715 0.447715 0 1 0H16C16.5523 0 17 0.447715 17 1V10C17 15.5228 12.5228 20 7 20H1C0.447715 20 0 19.5523 0 19V1Z"/>
+</mask>
+<path d="M0 1C0 0.447715 0.447715 0 1 0H16C16.5523 0 17 0.447715 17 1V10C17 15.5228 12.5228 20 7 20H1C0.447715 20 0 19.5523 0 19V1Z" stroke="#121212" stroke-width="3" mask="url(#path-1-inside-1_2019_6039)"/>
+<path d="M15 12H9V18" stroke="#121212" stroke-width="1.5"/>
+</svg>
