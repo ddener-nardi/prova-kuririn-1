@@ -6,8 +6,10 @@
 
     --fonte001: 'Istok Web';
 
-    --cor001:#706EF4;
+    --cor001: #706EF4;
     --cor002: #121212;
+    --cor003: #F1F1F1;
+    --cor004: #858585;
 }
 
 *{
@@ -66,4 +68,142 @@ header > nav {
     border-radius: 3px;
     width: 75%;
     font-size: 20px;
+}
+.rodape-principal1{
+    margin-top: 35px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.rodape-principal1 img{
+    background-color: #121212;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 0px 20px;
+
+}
+.rodape-principal1 a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight:bold;
+    text-align:justify;
+}
+.rodape-principal2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 270px;
+    background-color: #121212;
+    border-radius: 26px; 
+    margin-top: 35px;
+    margin-bottom: 95px;
+    margin-left: 25px;
+    padding: 8px 10px 8px 15px;
+}
+.rodape-principal2 a{
+    margin: 0 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.rodape-principal2 a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+#apresentacao-marcas{
+    background-color: var(--cor003);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#apresentacao-marcas .container{
+    margin: 65px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lead-marcas{
+    width: 70%;
+    font-size: 23px;
+    text-align: center;
+}
+.banner-marcas{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 5px;
+}
+#itens{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#itens .imagem-itens{
+    margin: 80px 5px 24px 5px;  
+}
+.imagem-itens img{
+    width: 100%;
+}
+#itens .texto-itens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    padding-bottom: 42px;
+    text-align: center;
+}
+.texto-itens h2{
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 2.3em;
+    color: var(--cor002);
+}
+.texto-itens p{
+    color: var(--cor004);
+    font-size: 1.3em;
+}
+.escolha-itens{
+    margin-bottom: 32px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center; /*revisar********/
+
+}
+.escolha-itens button{
+    padding: 12px 32px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.ano-atual{
+    /* border-color: var(--cor001); */
+    border: none;
+    background-color: var(--cor001);
+    box-shadow: none;
+    color: white;
+    letter-spacing: 1px;
+    font-weight:500;
+}
+.anos-anteriores{
+    border: 1px solid var(--cor001);
+    color: var(--cor001);
+    background-color: #fff;
+    font-weight: bold;
+}
+.produtos{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin: 30px;
 }
