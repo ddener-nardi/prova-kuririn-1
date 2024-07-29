@@ -54,7 +54,7 @@ header > nav {
     align-items: center;
     justify-content: center;
 }
-.meio-principal > h1{
+.lead > h1{
     color: white;
     font-size: 34px;
     text-align: center;
@@ -71,7 +71,7 @@ header > nav {
 }
 .rodape-principal1{
     margin-top: 35px;
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,21 +81,20 @@ header > nav {
     background-color: #121212;
     border-radius: 50%;
     padding: 15px;
-    margin: 0px 20px;
+    margin: 0px 20px 0 5px;
 
 }
 .rodape-principal1 a{
     color: #fff;
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 20px;
     font-weight:bold;
-    text-align:justify;
 }
 .rodape-principal2{
     display: flex;
     justify-content: center;
     text-align: center;
-    width: 270px;
+    width: 80%;
     background-color: #121212;
     border-radius: 26px; 
     margin-top: 35px;
@@ -107,11 +106,9 @@ header > nav {
     margin: 0 20px;
     text-align: center;
     font-weight: bold;
-}
-.rodape-principal2 a{
+    font-size: 1em;
     color: #fff;
     text-decoration: none;
-    font-size: 1.3em;
 }
 #apresentacao-marcas{
     background-color: var(--cor003);
@@ -150,7 +147,7 @@ header > nav {
     margin: 80px 5px 24px 5px;  
 }
 .imagem-itens img{
-    width: 100%;
+    width: 90%;
 }
 #itens .texto-itens{
     display: flex;
@@ -340,7 +337,14 @@ footer{
     flex-direction: column;
     align-items: center;
 }
-
+.button-footer{
+    padding: 25px 30px;
+    margin: 50px 25px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .button-footer a{
     width: 320px;
     background-color: var(--cor001);
