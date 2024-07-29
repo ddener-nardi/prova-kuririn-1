@@ -33,6 +33,9 @@ header > nav {
     justify-content: space-between;
     margin: 0 31px;
 }
+#header-img{
+    display: none;
+}
 .radio-imagem{
     background-color: white;
     border-radius: 50%;
@@ -54,13 +57,55 @@ header > nav {
     align-items: center;
     justify-content: center;
 }
+.lead{
+    width: 85%;
+    margin: 15px;
+}
 .lead > h1{
     color: white;
     font-size: 34px;
     text-align: center;
 }
-.meio-principal > a{
+/* .meio-principal > a{
     text-decoration: none;
+    color: white;
+    margin-top: 15px ;
+    background-color: var(--cor002);
+    padding: 25px;
+    border-radius: 3px;
+    width: 75%;
+    font-size: 20px;
+} */
+.mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 15px;
+}
+.mobile > a{
+    text-decoration:  none;
+    color: white;
+    margin-top: 15px ;
+    background-color: var(--cor002);
+    padding: 25px;
+    border-radius: 3px;
+    width: 80%;
+    font-size: 20px;
+}
+.meio-principal >.outras-telas{
+    display: none;
+}
+.outras-telas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.outras-telas a{
+    text-decoration:  none;
     color: white;
     margin-top: 15px ;
     background-color: var(--cor002);
@@ -94,7 +139,7 @@ header > nav {
     display: flex;
     justify-content: center;
     text-align: center;
-    width: 80%;
+    width: 250px;
     background-color: #121212;
     border-radius: 26px; 
     margin-top: 35px;
@@ -144,7 +189,11 @@ header > nav {
     justify-content: center;
 }
 #itens .imagem-itens{
-    margin: 80px 5px 24px 5px;  
+    margin: 80px 5px 24px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
 }
 .imagem-itens img{
     width: 90%;
