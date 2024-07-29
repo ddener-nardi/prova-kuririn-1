@@ -180,6 +180,18 @@
         margin-top: 0px;
         padding-right: 0px;
     }
+    .politics{
+        flex-direction: row;  
+    }
+    .copy{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .copy p{
+        margin: 25px;
+    }
+    .p1-politics::after{
+        content: " |\00a0";
+    }
     
-
 }
