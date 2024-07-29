@@ -120,7 +120,6 @@ header > nav {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 .rodape-principal1 img{
     background-color: #121212;
@@ -173,12 +172,15 @@ header > nav {
     font-size: 23px;
     text-align: center;
 }
-.banner-marcas{
+.banner-marcas {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
     margin-top: 5px;
+}
+.banner-marcas img{
+    width: 27%;
 }
 #itens{
     width: 100%;
@@ -222,7 +224,7 @@ header > nav {
     width: 90%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     align-content: center; /*revisar********/
 
 }
@@ -234,6 +236,7 @@ header > nav {
 .ano-atual{
     /* border-color: var(--cor001); */
     border: none;
+    margin-right: 37px;
     background-color: var(--cor001);
     box-shadow: none;
     color: white;
@@ -271,6 +274,9 @@ header > nav {
 .produto a, .produto img{
     color: var(--cor002);
     text-decoration: none;
+}
+#produto5, #produto6{
+    display: none;
 }
 .ver-itens{
     width: 90%;
@@ -380,6 +386,10 @@ footer{
 .footer-redes-sociais{
     display: flex;
     justify-content:space-around;
+}
+.footer-redes-sociais img{
+    height: 19px;
+    width: 19px; 
 }
 .fim-footer{
     display: flex;
