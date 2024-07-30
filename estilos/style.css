@@ -36,6 +36,9 @@ header > nav {
 #header-img{
     display: none;
 }
+.menu-hamb{
+    display: none;
+}
 .radio-imagem{
     background-color: white;
     border-radius: 50%;
