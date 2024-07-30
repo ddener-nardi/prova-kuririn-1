@@ -370,25 +370,50 @@
     .bloco-itens{
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        align-self: center;
+        width: 80%;
+    }
+    #itens .imagem-itens{
+        margin: 0 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+        width: 80%;
     }
     #itens .texto-itens{
-        display:flex;
-        align-self: flex-start;
-        order: -1;
-        padding-bottom: 0px;
-        padding-top: 120px;
+        display: none;       
+    }
+    .texto-itens h2, .texto-itens p{
+        display: none;
+    }
+    .section-head-itens{
+        display: initial;
+    }
+    .relacao-itens{
+        padding: 55px 0;
+        justify-content: start;
+        align-items: start;
+        justify-content: center;
+    }
+    .escolha-itens{
+        margin-bottom: 0px;
+        justify-content: start;
     }
     .produtos{
         display: grid;
         grid-template-columns: 100%;
-        width: 90%;
+        width: 80%;
         /* margin: 35px 15px 40px 15px; */
+    }
+    .ver-itens{
+        justify-content: start;
+        align-items: center;
+        margin-left: 0px;
     }
     #produto3, #produto4, #produto5, #produto6{
         display: none;
-    }
-    .ver-itens{
-        justify-content:center;    
     }
     .pag-videos h2{
         margin-bottom: 24px;

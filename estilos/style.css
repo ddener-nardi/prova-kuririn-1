@@ -217,7 +217,9 @@ header > nav {
 .imagem-itens img{
     width: 90%;
 }
-
+.section-head-itens{
+    display: none;
+}
 #itens .texto-itens{
     display: flex;
     flex-direction: column;
