@@ -418,12 +418,13 @@ footer{
     align-items: center;
 }
 .button-footer{
-    padding: 25px 30px;
-    margin: 50px 25px;
-    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* padding: 25px 30px; */
+    margin: 50px 25px;
+    width: 80%;
+    
 }
 .button-footer a{
     width: 320px;
