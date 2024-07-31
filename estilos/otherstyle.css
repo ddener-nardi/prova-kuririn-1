@@ -844,7 +844,7 @@
         justify-content: flex-start; /*revisar*/
     }
     .footer-redes-sociais img{
-        padding: 20px;
+        margin-right: 45px;
     }
     .fim-footer{
         display: flex;
