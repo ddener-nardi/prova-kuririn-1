@@ -122,7 +122,7 @@
         display: flex;
         justify-content: center;
         text-align: center;
-        width: 250px;
+        width: 200px;
         
     }
     .rodapes{
@@ -451,10 +451,13 @@
     .logo-rodape{
         display:initial;
         align-self: start;
+        justify-content: center;
         margin: 0;
+        justify-self: center;
     }
     .logo-rodape img{
-        width: 40%;
+        width: 100%;
+        justify-self: center;
     }
     .info{
         display: grid;
@@ -622,6 +625,7 @@
     .lead{
         max-width: 50%;
         width: 55%;
+        margin-left: 10%;
         /* margin: 15px; */
     }
     .lead > h1{
@@ -635,6 +639,7 @@
     }
     
     .meio-principal{
+        margin-left: 10%;
         max-width: 60%;
         display: grid;
         grid-template-columns: 50% 50%;
@@ -713,16 +718,18 @@
         align-items: center;
     }
     .lead-marcas{
+        margin-left: 10%;
         width: 40%;
         font-size: 1.5em;
         text-align: start;
     }
     .banner-marcas {
-        justify-content: space-around;
+        justify-content: center;
         width: 100%;
     }
     .banner-marcas img{
-        width: 40%;
+        width: 30%;
+        margin-left: 20px;
     }
     #itens{
         width: 100%;
@@ -768,9 +775,8 @@
         justify-content: start;
     }
     .produtos{
-        display: flex;
-        justify-content: start;
-        align-items: start;
+        display: grid;
+        grid-template-columns: 50% 50%;
         margin: 35px 0;
     }
     .ver-itens{
@@ -778,9 +784,6 @@
         align-items: center;
         margin-left: 0px;
         margin-bottom: 0px;
-    }
-    #produto3, #produto4, #produto5, #produto6{
-        display: none;
     }
     .pag-videos h2{
         margin-bottom: 24px;
@@ -794,6 +797,9 @@
     #ver-videos{
         /* justify-content: center; */
         margin-bottom: 100px;
+    }
+    #img-3, #img-4{
+        display: flex;
     }
     .conteudo-rodape{
         margin: 0 15px;
@@ -809,10 +815,13 @@
     .logo-rodape{
         display:initial;
         align-self: start;
+        justify-content: center;
         margin: 0;
+        justify-self: center;
     }
     .logo-rodape img{
-        width: 40%;
+        width: 100%;
+        justify-self: center;
     }
     .info{
         display: grid;
