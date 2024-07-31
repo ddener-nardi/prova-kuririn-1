@@ -23,7 +23,7 @@ body{
 }
 header{
     background-color: black;
-    height: 15vh;
+    height: 10vh;
     border: black;
 }
 header > nav {
