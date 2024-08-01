@@ -195,10 +195,11 @@
     }
     .button-footer{
         width: 95%;
-        justify-content: end;
-        align-items: end;
-        margin-top: -10px;
+        justify-content: start;
+        align-items: start;
+        margin-top: 25px;
         padding-right: 0px;
+        margin-left: 0px;
     }
     .politics{
         flex-direction: row;  
@@ -490,11 +491,13 @@
         width: 100%;
     }
     .button-footer{
-        width: 95%;
-        justify-content: flex-end;
-        align-items: end;
-        margin-top: 0px;
+        width: 90%;
+        justify-content: start;
+        align-items: start;
+        margin-top: 25px;
         padding-right: 0px;
+        margin-left: 0px;
+        font-size: .9em;
     }
     .politics{
         display: flex;
@@ -855,10 +858,11 @@
     }
     .button-footer{
         width: 95%;
-        justify-content: flex-end;
-        align-items: end;
-        margin-top: 0px;
+        justify-content: start;
+        align-items: start;
+        margin-top: 50px;
         padding-right: 0px;
+        margin-left: 0px;
     }
     .politics{
         display: flex;
