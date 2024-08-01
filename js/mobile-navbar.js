@@ -1,3 +1,13 @@
+ 
+function abrirDropDown(){ 
+    const lista = document.getElementById('lista-mobile');      
+    if (lista.style.display == 'initial') {
+        lista.style.display = 'none';   
+    }
+    else{
+        lista.style.display = 'initial';
+    }
+}
 class MobileNavbar{
     constructor(mobileMenu, navList, navLinks){
         this.mobileMenu = document.querySelector(mobileMenu);
