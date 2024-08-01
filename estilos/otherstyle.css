@@ -472,6 +472,9 @@
         align-items: start;
         padding-bottom: 35px;   
     }
+    .footer-nav{
+        justify-content: start;
+    }
     .footer-redes-sociais{
         display: flex;
         margin-right: 30px;
