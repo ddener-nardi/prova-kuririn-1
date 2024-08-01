@@ -411,6 +411,7 @@ header > nav {
 footer{
     background-color: var(--cor002);
     color: white;
+    overflow-x: hidden;
 }
 .conteudo-rodape{
     margin: 0 15px;
