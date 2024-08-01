@@ -30,6 +30,9 @@
     .solo-burguer{
         display: none;
     }
+    .menu-vertical-mobile{
+        display: none;
+    }
     #pag-principal{
         background-image: url(../imagens/tablet-img.jpg);
         background-size: cover;
@@ -244,6 +247,9 @@
         margin-left: 10px;
     }
     .solo-burguer{
+        display: none;
+    }
+    .menu-vertical-mobile{
         display: none;
     }
     #pag-principal{
@@ -565,6 +571,9 @@
         display: flex;
         justify-content: end;
         align-items: center;       
+    }
+    .menu-vertical-mobile{
+        display: none;
     }
     .lista-principal{
         list-style: none;
