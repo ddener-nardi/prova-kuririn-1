@@ -51,18 +51,19 @@ header > nav {
     left: 0;
     top: 10vh;
     list-style: none;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: start;
     width: 100%;
     height: 100%;
     background-color: #121212c7;
     backdrop-filter: blur(5px);
-    transform: translateX(100%);
+    transform: translateX(0);
     transition: transform .5s ease-in;
 }
 .menu-vertical-mobile.active{
     transform: translateX(0);
+    display: initial;
 }
 .lista-principal-mobile{
     display: flex;
