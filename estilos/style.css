@@ -136,16 +136,6 @@ header > nav {
     font-size: 34px;
     text-align: center;
 }
-/* .meio-principal > a{
-    text-decoration: none;
-    color: white;
-    margin-top: 15px ;
-    background-color: var(--cor002);
-    padding: 25px;
-    border-radius: 3px;
-    width: 75%;
-    font-size: 20px;
-} */
 .mobile{
     display: flex;
     flex-direction: column;
@@ -323,6 +313,13 @@ header > nav {
     padding: 12px 32px;
     border-radius: 100px;
     cursor: pointer;
+}
+.escolha-itens .ano-atual:hover{
+    background-color: #403f83;
+}
+.escolha-itens .anos-anteriores:hover{
+    background-color: #b7b6fd;
+    color: var(--cor003);
 }
 .ano-atual{
     /* border-color: var(--cor001); */
@@ -507,6 +504,7 @@ footer{
     font-weight: 400;
     text-align: center;
 }
+.button-footer a:hover{background-color: #403f83;}
 .politics{
     display: flex;
     flex-direction: column;
