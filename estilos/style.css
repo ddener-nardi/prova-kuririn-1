@@ -55,7 +55,7 @@ header > nav {
     justify-content: center;
     align-items: start;
     width: 100%;
-    height: 100%;
+    height: 400vh;
     background-color: #121212c7;
     backdrop-filter: blur(5px);
     transform: translateX(0);
@@ -76,22 +76,33 @@ header > nav {
     text-decoration: none;
     color: var(--cor003);
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 .lista-principal-mobile a:hover{
     border-bottom: 2px solid var(--cor003);
 }
 .lista-principal-mobile li{
-    margin: 25px;
+    margin: 25px 0;
 }
 .dropdown-mobile{
     text-align: center;
+    height: 100%;
+    width: 100%;
 }
 .lista-dropdown-mobile{
     display: none;
     list-style: none;
+    border: none;
 }
 .lista-dropdown-mobile a{
     text-transform: none;
+}
+.lista-dropdown-mobile li{
+    padding: 10px 0px;
+}
+.lista-dropdown-mobile li:hover{
+    background-color: #403f83;
+    transition: .5s;
 }
 .radio-imagem{
     background-color: white;
@@ -113,7 +124,9 @@ header > nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 15px;
 }
+.mobile a:hover, .outras-telas a:hover{background-color: #252525;}
 .lead{
     width: 85%;
     margin: 15px;
@@ -139,7 +152,7 @@ header > nav {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 15px;
+    /* margin: 15px; */
 }
 .mobile > a{
     text-decoration:  none;
