@@ -503,6 +503,7 @@ footer{
     font-size: 1.6em;
     font-weight: 400;
     text-align: center;
+    border-radius: 3px;
 }
 .button-footer a:hover{background-color: #403f83;}
 .politics{
